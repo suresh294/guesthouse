@@ -7,7 +7,7 @@ import contactBg from '../images/image5.png';
 const quickLinks = ['Rooms', 'Contact'];
 const socialLinks = ['Instagram', 'WhatsApp'];
 
-const whatsappNumber = '919363058387';
+const whatsappNumber = '9363058387';
 const phoneNumber = '9363058387';
 const whatsappMessage = encodeURIComponent('Hello! I would like to check availability and book a stay. Please share the best options and rates.');
 const whatsappLink = `https://api.whatsapp.com/send/?phone=${whatsappNumber}&text=${whatsappMessage}&type=phone_number&app_absent=0`;
