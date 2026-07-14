@@ -2,6 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import img1 from '../images/img1.png';
 import img2 from '../images/img2.png';
+import img3 from '../images/img3.png';
 
 const rooms = [
   {
@@ -15,6 +16,13 @@ const rooms = [
     image: img2,
     name: 'Premium Room',
     description: 'An understated sanctuary designed for deep comfort and quiet luxury.',
+    priceWeekday: '₹1,500',
+    priceWeekend: '₹2,000',
+  },
+  {
+    image: img3,
+    name: 'Superior Room',
+    description: 'A warm and welcoming space with rich magenta accents features.',
     priceWeekday: '₹1,500',
     priceWeekend: '₹2,000',
   },
@@ -42,7 +50,7 @@ export default function RoomsSection() {
           </p>
         </div>
 
-        <div className="mt-16 grid gap-8 grid-cols-1 lg:grid-cols-2">
+        <div className="mt-16 grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
           {rooms.map((room, index) => (
             <article
               key={room.name + index}

@@ -98,9 +98,13 @@ export default function LocationContactSection() {
             <p className="mb-4 text-sm font-semibold uppercase tracking-[0.35em] text-gold">Contact</p>
             <h3 className="font-serif text-3xl text-navy sm:text-4xl">Reserve With Ease</h3>
             <div className="mt-8 space-y-5 text-base text-slateText/75">
-              <p>Phone: {phoneNumber}</p>
+              <p>
+                Phone:{' '}
+                <a href="tel:9363058387" className="hover:text-gold transition font-medium">9363058387</a>,{' '}
+                <a href="tel:8300348387" className="hover:text-gold transition font-medium">8300348387</a>,{' '}
+                <a href="tel:7200948387" className="hover:text-gold transition font-medium">7200948387</a>
+              </p>
               <p>WhatsApp: {whatsappNumber}</p>
-              <p>Email: hello@luxehouse.com</p>
               <p>Address: {address}</p>
               <p>Working Hours: 24/7 Reception</p>
             </div>
