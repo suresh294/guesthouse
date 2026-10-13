@@ -17,7 +17,7 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://example.com'),
+  metadataBase: new URL('https://mrs-guesthouse.vercel.app'),
   title: {
     default: 'MRS Guest House | Premium Stay',
     template: '%s | MRS Guest House',
