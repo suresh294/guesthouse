@@ -1,5 +1,7 @@
 # MRS Guest House Website
 
+[![CI](https://github.com/suresh294/guesthouse/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/suresh294/guesthouse/actions/workflows/ci.yml)
+
 The Next.js application is located in [`guesthouse-app/`](guesthouse-app/README.md).
 
 - **Live site:** [mrs-guesthouse.vercel.app](https://mrs-guesthouse.vercel.app)
